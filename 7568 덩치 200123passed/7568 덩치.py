@@ -19,13 +19,13 @@ for i in range(N):
     one = people[i]
     for j in range(i+1,N):
         two = people[j]
-        print(one,two)
+        #print(one,two)
 
         if one[0] > two[0] and one[1] > two[1]:
-            print('one이 더 큼')
+            #print('one이 더 큼')
             count[j] += 1
         elif one[0] < two[0] and one[1] < two[1]:
-            print('two이 더 큼')
+            #print('two이 더 큼')
             count[i] += 1
             
 print(' '.join(map(str,count)))         
