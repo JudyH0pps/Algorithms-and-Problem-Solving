@@ -10,9 +10,9 @@ if not INPUTMODE:
 ################################
 
 
-def palindromeChk(s):
-    for r in range(len(s)//2):
-        if s[r] != s[-(r+1)]:
+def palindromeChk(s,start,leng):
+    for r in range(start,start+(leng)//2+1):
+        if s[r] != s[start + leng - (r+1)]:
             return False
     return True
     
@@ -24,9 +24,7 @@ find = False
 ans = -1
 for l in range(leng,0,-1):
     for start in range(leng - l + 1):
-        #print(start,start+l)
-        nowS = S[start:start+leng]
-        if not palindromeChk(nowS):
+        if not palindromeChk(S,start,l):
             find = True
             ans = l
             break
