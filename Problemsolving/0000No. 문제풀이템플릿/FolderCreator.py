@@ -22,3 +22,6 @@ if not INPUTMODE:
 pythonfile = open('../'+name+'/'+name+'.py','w',encoding='UTF8')
 pythonfile.write(firstinput)
 pythonfile.close()
+
+inputfile = open('../'+name+'/input.txt','w')
+inputfile.close()
