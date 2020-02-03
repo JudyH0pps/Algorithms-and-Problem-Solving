@@ -16,6 +16,9 @@ INPUTMODE = 0
 if not INPUTMODE:
     f = open("input.txt","r")
     input = f.readline
+else:
+    import sys
+    input = sys.stdin.readline
 ################################
 """
 
