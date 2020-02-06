@@ -15,10 +15,10 @@ INPUTMODE = 0
 
 if not INPUTMODE:
     f = open("input.txt","r")
-    input = f.readline
+    input = lambda : f.readline().rstrip()
 else:
     import sys
-    input = sys.stdin.readline
+    input = lambda : sys.stdin.readline().rstrip()
 ################################
 """
 
