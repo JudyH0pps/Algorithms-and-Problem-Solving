@@ -38,7 +38,7 @@ for y1,x1,y2,x2 in kami:
         for y in range(y1,y2):
             board[x][y] += 1
  
-#printB(board)
+printB(board)
 
 for _ in range(M):
     y1,x1,y2,x2 = map(int,input().split())
