@@ -61,6 +61,9 @@ for test_case in range(1,T+1):
     maxLevel = -1
     for r in range(N):
         for c in range(N):
+
+            if (r,c) == (0,0) or (r,c) == (0,N-1) or (r,c) == (N-1,0) or (r,c) == (N-1,N-1):
+                continue
             now = board[r][c]
             path = list()
             path.append(now)
