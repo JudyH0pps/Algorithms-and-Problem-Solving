@@ -14,7 +14,6 @@ else:
 ################################
 from collections import deque
 
-
 def printB(board):
     for i in range(N):
         for j in range(M):
@@ -22,20 +21,19 @@ def printB(board):
         print()
     print()
 
-
 dr = [1, 0]
 dc = [0, -1]
-
 
 def isWall(row, col):
     if -1 <= row < N and -1 <= col < M:
         return False
     return True
 
-
 N, M, T = map(int, input().split())
 board = [deque(map(int, input().split())) for _ in range(N)]
 bias = [0] * N
+
+avg = 0
 
 for _ in range(T):
     # 0 시계 1 반시계
@@ -48,12 +46,12 @@ for _ in range(T):
             bias[r - 1] = (tmp + k) % M
 
     for i in range(N):
-        for _ in range(bias[i]):
-            tmp = board[i].popleft()
-            board[i].append(tmp)
+        board[i].rotate(-bias[i])
         bias[i] = 0
 
+    # print('회전')
     # printB(board)
+
     summ = 0
     cnt = 0
     dele = False
@@ -76,6 +74,7 @@ for _ in range(T):
                     delete[r][c] = 1
                     delete[nr][nc] = 1
 
+
     if dele:
         for r in range(N):
             for c in range(M):
@@ -83,9 +82,9 @@ for _ in range(T):
                     board[r][c] = 0
     else:
         if cnt == 0:
-            avg = 0
+            continue
         else:
-            avg = summ / cnt
+            avg = round(summ / cnt,100)
         for r in range(N):
             for c in range(M):
                 now = board[r][c]
@@ -93,8 +92,12 @@ for _ in range(T):
                     continue
                 if now > avg:
                     board[r][c] -= 1
-                else:
+                elif now < avg:
                     board[r][c] += 1
+
+    # print('후처리')
+    # print(avg)
+    # printB(board)
 
 sub = 0
 for r in range(N):
