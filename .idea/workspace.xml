@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8531fb87-bdd4-481f-99f3-d19bed689447" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,63 +49,40 @@
     <session id="-1944831003">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10040" />
-          <entry key="txt" value="116" />
+          <entry key="py" value="13977" />
+          <entry key="txt" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="116" />
-          <entry key="Python" value="10040" />
+          <entry key="PLAIN_TEXT" value="229" />
+          <entry key="Python" value="13977" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
-          <entry key="txt" value="19" />
+          <entry key="py" value="36" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="26" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="36" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/﻿1194 달이 차오른다 가자.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-              <folding>
-                <element signature="e#263#292#0" expanded="true" />
-                <marker date="1581663844363" expanded="true" signature="1267:1294" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -143,12 +120,22 @@
         <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1974 스도쿠 검증/﻿swex 1974 스도쿠 검증.py" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿7569 토마토/input.txt" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿7569 토마토/﻿7569 토마토.py" />
-        <option value="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/input.txt" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/주환이형.py" />
         <option value="$PROJECT_DIR$/../바탕화면/Test.py" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/input.txt" />
         <option value="$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/﻿1194 달이 차오른다 가자.py" />
+        <option value="$PROJECT_DIR$/../Test.py" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿18224 미로에 갇힌 건우/input.txt" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿18224 미로에 갇힌 건우/﻿18224 미로에 갇힌 건우.py" />
+        <option value="$PROJECT_DIR$/../분할정복 power.py" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴/input.txt" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴/﻿12099 점심메뉴.py" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로/input.txt" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로/﻿swex 1249 보급로.py" />
+        <option value="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic/input.txt" />
+        <option value="$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic/﻿swex 1220 Magnetic.py" />
       </list>
     </option>
   </component>
@@ -164,7 +151,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../바탕화면/Test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -179,8 +166,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.﻿1194 달이 차오른다 가자">
-    <configuration name="주환이형" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.﻿swex 1220 Magnetic">
+    <configuration name="분할정복 power" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithms-and-Problem-Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/주환이형.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../분할정복 power.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="﻿1194 달이 차오른다 가자" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="﻿12099 점심메뉴" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithms-and-Problem-Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,32 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/﻿1194 달이 차오른다 가자.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="﻿7569 토마토" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithms-and-Problem-Solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿7569 토마토" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿7569 토마토/﻿7569 토마토.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴/﻿12099 점심메뉴.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="﻿swex 1220 Magnetic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithms-and-Problem-Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +238,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../바탕화면" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../바탕화면/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic/﻿swex 1220 Magnetic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="﻿swex 1249 보급로" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithms-and-Problem-Solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로/﻿swex 1249 보급로.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,18 +274,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.FolderCreator" />
-      <item itemvalue="Python.﻿7569 토마토" />
-      <item itemvalue="Python.﻿1194 달이 차오른다 가자" />
-      <item itemvalue="Python.주환이형" />
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.분할정복 power" />
+      <item itemvalue="Python.﻿12099 점심메뉴" />
+      <item itemvalue="Python.﻿swex 1249 보급로" />
+      <item itemvalue="Python.﻿swex 1220 Magnetic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.﻿1194 달이 차오른다 가자" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.주환이형" />
+        <item itemvalue="Python.﻿swex 1220 Magnetic" />
         <item itemvalue="Python.FolderCreator" />
-        <item itemvalue="Python.﻿7569 토마토" />
+        <item itemvalue="Python.﻿swex 1249 보급로" />
+        <item itemvalue="Python.﻿12099 점심메뉴" />
+        <item itemvalue="Python.분할정복 power" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +304,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35470086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30811402" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,7 +329,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4484649" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,20 +374,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1210 점심 식사시간/﻿swex 1210 점심 식사시간.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1210 점심 식사시간/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1210 점심 식사시간/﻿swex 1210 점심 식사시간.py" />
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1210 점심 식사시간/input.txt" />
     <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4869 종이붙이기 200213passed/﻿swex 4869 종이붙이기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -437,20 +411,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4873 반복문자 지우기/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4873 반복문자 지우기/﻿swex 4873 반복문자 지우기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4873 반복문자 지우기/input.txt" />
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4873 반복문자 지우기/﻿swex 4873 반복문자 지우기.py" />
     <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 4866 괄호검사 200213passed/﻿swex 4866 괄호검사.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -471,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1581584385097" expanded="true" signature="284:403" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,10 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="e#264#299#0" expanded="true" />
-            <marker date="1581640754179" expanded="true" signature="381:386" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,10 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="55" column="21" lean-forward="true" selection-end-line="62" />
-          <folding>
-            <element signature="e#255#284#0" expanded="true" />
-            <marker date="1581644486221" expanded="true" signature="862:964" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,30 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/FolderCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/주환이형.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/주환이형.py" />
     <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1226 미로1 200211passed/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -558,28 +486,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../바탕화면/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../바탕화면/Test.py" />
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/﻿1194 달이 차오른다 가자.py" />
     <entry file="file://$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿1194 달이 차오른다 가자/﻿1194 달이 차오른다 가자.py">
+    <entry file="file://$PROJECT_DIR$/../분할정복 power.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿18224 미로에 갇힌 건우/﻿18224 미로에 갇힌 건우.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
           <folding>
-            <element signature="e#263#292#0" expanded="true" />
-            <marker date="1581663844363" expanded="true" signature="1267:1294" ph="..." />
+            <marker date="1581920271771" expanded="true" signature="313:434" ph="..." />
+            <marker date="1581920271771" expanded="true" signature="455:533" ph="..." />
+            <marker date="1581920271771" expanded="true" signature="531:533" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿18224 미로에 갇힌 건우/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴/﻿12099 점심메뉴.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿12099 점심메뉴/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로/﻿swex 1249 보급로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1249 보급로/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="541" lean-forward="true" selection-start-line="541" selection-end-line="541" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/FolderCreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic/﻿swex 1220 Magnetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemsolving/﻿swex 1220 Magnetic/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="1009" column="90" selection-start-line="1009" selection-start-column="90" selection-end-line="1009" selection-end-column="90" />
         </state>
       </provider>
     </entry>
