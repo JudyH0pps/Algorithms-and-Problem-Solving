@@ -1,96 +1,96 @@
-#﻿16985 Maaaaaaaaaze
+# ﻿16985 Maaaaaaaaaze
 
 #####입력 모드
 # 0 : txt모드 , 1: 제출용
 INPUTMODE = 0
 if not INPUTMODE:
-    f = open("input.txt","r")
+    f = open("input.txt", "r")
     input = f.readline
 else:
     import sys
+
     input = sys.stdin.readline
 ################################
-
-from collections import deque
 from copy import deepcopy
-import sys
-sys.setrecursionlimit(10 ** 6)
+from collections import deque
 
-def printB(board):
-    for i in range(N):
-        for j in range(N):
-            print(board[i][j], end=' ')
-        print()
-    print()
-
-
-def printCube(cube):
-    for i in range(N):
-        printB(cube[i])
-    print('---------')
+# row,col,h
+delta = (
+    (0, 0, 1),
+    (0, 0, -1),
+    (1, 0, 0),
+    (0, 1, 0),
+    (-1, 0, 0),
+    (0, -1, 0)
+)
 
 
-# 시계방향으로 회전
-def spin(board, num):
-    before = deepcopy(board)
-    for _ in range(num):
-        nboard = [[0 for _ in range(N)] for _ in range(N)]
-        for r in range(N):
-            for c in range(N):
-                nboard[r][c] = before[N - c - 1][r]
-        before = nboard
+def BFS():
+    visit = [[[0]*5 for _ in range(5)] for _ in range(5)]
+    if cube[0][0][0] == 0:
+        return 126
+    visit[0][0][0] = 1
+    q = deque()
+    q.append((0, 0, 0, 0))
+    while q:
+        # print('inq')
+        row, col, h, level = q.popleft()
+        for i in range(6):
+            dr, dc, dh = delta[i]
+            nr = row + dr
+            nc = col + dc
+            nh = h + dh
+            if 0 <= nr < 5 and 0 <= nc < 5 and 0 <= nh < 5 and cube[nh][nr][nc] and not visit[nh][nr][nc]:
+                if (nh, nr, nc) == (4, 4, 4):
+                    return level + 1
+                visit[nh][nr][nc] = 1
+                q.append((nr, nc, nh, level + 1))
+    return 126
+
+
+def clockwise(board):
+    nboard = deepcopy(board)
+    for r in range(5):
+        for c in range(5):
+            nboard[r][c] = board[4 - c][r]
     return nboard
 
 
-def everySpin(now, level):
-    if level == 4:
-        print(now)
-        return
-    for i in range(4):
-        nnow = now[:]
-        nnow.append(i)
-        everySpin(nnow, level + 1)
+def permutations(level):
+    if level == 5:
+        global cnt
+        cnt += 1
+        # print(cnt)
+        for a in range(4):
+            cube[0] = clockwise(cube[0])
+            for b in range(4):
+                cube[1] = clockwise(cube[1])
+                for c in range(4):
+                    cube[2] = clockwise(cube[2])
+                    for d in range(4):
+                        cube[3] = clockwise(cube[3])
+                        for e in range(4):
+                            cube[4] = clockwise(cube[4])
+                            # print(cnt,'-----',a,b,c,d,e)
+                            dist = BFS()
+                            global minlevel
+                            if minlevel > dist:
+                                # print(cnt,a,b,c,d,e,dist)
+                                # print(cube)
+                                minlevel = dist
+
+    for i in range(level, 5):
+        cube[i], cube[level] = cube[level], cube[i]
+        permutations(level + 1)
+        cube[i], cube[level] = cube[level], cube[i]
 
 
-# 내가 짠 높이 순열
-'''
-chk = [0 for _ in range(5)]
-def everyTotem(now, level):
-    if level == 4:
-        print(now)
-        return
-    for i in range(5):
-        if chk[i]:
-            continue
-        nnow = now[:]
-        nnow.append(i)
-        chk[i] = 1
-        everyTotem(nnow,level+1)
-        chk[i] = 0
+cube = [[list(map(int, input().split())) for _ in range(5)] for _ in range(5)]
 
-'''
-
-
-# 수업 시간에 배운거
-def everyTotem(depth):
-    if depth == 5:
-        printCube(cube)
-        # 현재 큐브에서 BFS시작하기
-
-        ######
-        return
-
-    for i in range(depth, 5):
-        cube[i], cube[depth] = cube[depth], cube[i]
-        everyTotem(depth + 1)
-        cube[i], cube[depth] = cube[depth], cube[i]
-
-
-N = 5
-#################################### Main ##################################
-
-# 0 벽 1 이동가능 칸
-
-cube = [[list(map(int, input().split())) for _ in range(N)] for _ in range(N)]
-everyTotem(0)
-
+cnt = 0
+minlevel = 126
+permutations(0)
+if minlevel == 126:
+    print(-1)
+else:
+    print(minlevel)
