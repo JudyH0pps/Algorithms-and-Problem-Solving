@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8531fb87-bdd4-481f-99f3-d19bed689447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problemsolving/﻿swex 2112 보호 필름 200227passed/﻿swex 2112 보호 필름.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿swex 2112 보호 필름/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/﻿swex 2112 보호 필름 200227passed/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿swex 2112 보호 필름/﻿swex 2112 보호 필름.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,70 @@
       <recent name="C:\Users\nnamo\Desktop\Algorithms-and-Problem-Solving\Problemsolving\﻿12099 점심메뉴" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.﻿swex 2115 벌꿀채취 (1)">
+  <component name="RunManager" selected="Python.﻿18235 지금 만나러 갑니다 (1)">
+    <configuration name="﻿1032 명령 프롬프트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-and-Problem-Solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿1032 명령 프롬프트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿1032 명령 프롬프트/﻿1032 명령 프롬프트.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="﻿18235 지금 만나러 갑니다 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-and-Problem-Solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿18235 지금 만나러 갑니다 200229passed" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿18235 지금 만나러 갑니다 200229passed/﻿18235 지금 만나러 갑니다.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="﻿18235 지금 만나러 갑니다" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-and-Problem-Solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿18235 지금 만나러 갑니다" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿18235 지금 만나러 갑니다/﻿18235 지금 만나러 갑니다.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FolderCreator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Problem-Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,83 +137,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="﻿swex 2115 벌꿀채취 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-and-Problem-Solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 2115 벌꿀채취 200227passed" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 2115 벌꿀채취 200227passed/﻿swex 2115 벌꿀채취.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="﻿swex 2115 벌꿀채취" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-and-Problem-Solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 2115 벌꿀채취" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 2115 벌꿀채취/﻿swex 2115 벌꿀채취.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="﻿swex 2117 홈 방범 서비스" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-and-Problem-Solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemsolving/﻿swex 2117 홈 방범 서비스" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemsolving/﻿swex 2117 홈 방범 서비스/﻿swex 2117 홈 방범 서비스.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.FolderCreator" />
+      <item itemvalue="Python.﻿1032 명령 프롬프트" />
       <item itemvalue="Python.Test123" />
-      <item itemvalue="Python.﻿swex 2117 홈 방범 서비스" />
-      <item itemvalue="Python.﻿swex 2115 벌꿀채취" />
-      <item itemvalue="Python.﻿swex 2115 벌꿀채취 (1)" />
+      <item itemvalue="Python.﻿18235 지금 만나러 갑니다" />
+      <item itemvalue="Python.﻿18235 지금 만나러 갑니다 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.﻿swex 2115 벌꿀채취 (1)" />
-        <item itemvalue="Python.﻿swex 2115 벌꿀채취" />
+        <item itemvalue="Python.﻿18235 지금 만나러 갑니다 (1)" />
+        <item itemvalue="Python.﻿18235 지금 만나러 갑니다" />
         <item itemvalue="Python.FolderCreator" />
-        <item itemvalue="Python.﻿swex 2117 홈 방범 서비스" />
         <item itemvalue="Python.Test123" />
+        <item itemvalue="Python.﻿1032 명령 프롬프트" />
       </list>
     </recent_temporary>
   </component>
@@ -175,42 +172,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="874" y="25" key="#﻿2589_보물섬/0.0.1536.824@0.0.1536.824" timestamp="1582371481072" />
-    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1582795661099">
+    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1582954699120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582795661099" />
-    <state width="748" height="223" key="GridCell.Tab.0.bottom" timestamp="1582806421760">
+    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582954699120" />
+    <state width="746" height="224" key="GridCell.Tab.0.bottom" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.0.center" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.0.center" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.0.left" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.0.left" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.0.right" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.0.right" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.1.bottom" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.1.bottom" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.1.center" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.1.center" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.1.left" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.1.left" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
-    <state width="748" height="223" key="GridCell.Tab.1.right" timestamp="1582806421760">
+    <state width="746" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
+    <state width="746" height="224" key="GridCell.Tab.1.right" timestamp="1582960211433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="748" height="223" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582806421760" />
+    <state width="746" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582960211433" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1582371485591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -223,10 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="638" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1582444459537" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582805575882">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582955347260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582805575882" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582955347260" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,12 +233,17 @@
           <line>45</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Problemsolving/﻿swex 1225 암호 생성기 200228passed/﻿swex 1225 암호 생성기.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="board" language="Python" />
-        <watch expression="i" language="Python" />
+        <watch expression="right" language="Python" />
+        <watch expression="left" language="Python" />
       </configuration>
     </watches-manager>
   </component>
