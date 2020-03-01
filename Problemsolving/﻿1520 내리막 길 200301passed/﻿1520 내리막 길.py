@@ -16,8 +16,6 @@ delta = ((0, 1), (1, 0), (-1, 0), (0, -1))
 
 
 def DFS(row, col):
-    if visit[row][col] != -1:
-        return visit[row][col]
     now = board[row][col]
     visit[row][col] = 0
     for dr, dc in delta:
