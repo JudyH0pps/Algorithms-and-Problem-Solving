@@ -11,126 +11,133 @@ else:
     import sys
 
     input = lambda: sys.stdin.readline().rstrip()
+
 ################################
+from itertools import product
 from collections import deque
-import sys
 
-sys.setrecursionlimit(10 ** 6)
-
-# def findP(r, c):
-#     nowP = parent[r][c]
-#     if (r, c) == nowP:
-#         return nowP
-#
-#     P = findP(*nowP)
-#     parent[r][c] = P
-#     return P
-#
-#
-# def union(r1, c1, r2, c2):
-#     p1 = findP(r1, c1)
-#     p2 = findP(r2, c2)
-#
-#     if p1 < p2:
-#         parent[p2[0]][p2[1]] = p1
-#     else:
-#         parent[p1[0]][p1[1]] = p2
 
 def printB(board):
-    for r in range(R):
-        for c in range(C):
-            print(board[r][c], end=' ')
+    for i in range(N):
+        for j in range(M):
+            print("%2s" % board[i][j], end=' ')
         print()
     print()
 
 
-def DFS(pr, pc, row, col):
-    for dr, dc in delta:
-        nr = row + dr
-        nc = col + dc
-        if not (0 <= nr < R and 0 <= nc < C) or visit[nr][nc]:
-            continue
-        if board[nr][nc] == 'X':
-            visit[nr][nc] = 1
-            q.append((nr, nc))
-
-        elif board[nr][nc] == '.':
-            visit[nr][nc] = 1
-            DFS(pr, pc, nr, nc)
-
 delta = ((0, 1), (1, 0), (-1, 0), (0, -1))
 
-R, C = map(int, input().split())
-board = [list(input()) for _ in range(R)]
-visit = [[0] * C for _ in range(R)]
 
-q = deque()
+def isWall(r, c):
+    if 0 <= r < N and 0 <= c < M:
+        return False
+    return True
 
+
+def firstbfs(row, col, i):
+    q = deque()
+    q.append((row, col))
+    visit[i][row][col] = 0
+    icevisit[row][col] = 1
+    while q:
+        row, col = q.popleft()
+
+        for dr, dc in delta:
+            nr = row + dr
+            nc = col + dc
+            if isWall(nr, nc) or icevisit[nr][nc]:
+                continue
+            if board[nr][nc] == 'L':
+                return True
+            elif board[nr][nc] == 'X':
+                iceq.append((nr, nc))
+                swanq[0].append((nr, nc))
+                visit[i][nr][nc] = 1
+                icevisit[nr][nc] = 1
+                continue
+            else:
+                icevisit[nr][nc] = 1
+                visit[i][nr][nc] = 0
+                q.append((nr, nc))
+    return False
+
+
+def BFS(row, col):
+    q = deque()
+    q.append((row, col))
+    icevisit[row][col] = 1
+    while q:
+        row, col = q.popleft()
+
+        for dr, dc in delta:
+            nr = row + dr
+            nc = col + dc
+            if isWall(nr, nc) or icevisit[nr][nc]:
+                continue
+            elif board[nr][nc] == 'X':
+                icevisit[nr][nc] = 1
+                iceq.append((nr, nc))
+                continue
+            else:
+                icevisit[nr][nc] = 1
+                q.append((nr, nc))
+
+
+N, M = map(int, input().split())
+board = [list(input()) for _ in range(N)]
+icevisit = [[0] * M for _ in range(N)]
+visit = [[[-1] * M for _ in range(N)] for _ in range(2)]
+
+swanq = [deque()]*2
+iceq = deque()
+
+swan = [0, 0]
+i = 0
 find = False
+for r, c in product(range(N), range(M)):
+    if board[r][c] == 'L':
+        swan[i] = (r, c)
+        board[r][c] = '.'
+        if firstbfs(r, c, i):
+            find = True
+            break
+        if i == 1:
+            break
+        i += 1
 
-bird = [0] * 2
-
-
-def findBird():
-    n = 0
-    for r in range(R):
-        for c in range(C):
-            if board[r][c] == 'L':
-                bird[n] = (r, c)
-                board[r][c] = '.'
-                if n == 1:
-                    return
-                n += 1
-
-
-def init():
-    for r in range(R):
-        for c in range(C):
-            if not visit[r][c] and board[r][c] == '.':
-                visit[r][c] = 1
-                DFS(r, c, r, c)
-
-
-findBird()
-init()
-
-
-printB(board)
-printB(visit)
-# printB(parent)
-
-
-if findP(*bird[0]) == findP(*bird[1]):
+if find:
     print(0)
-
 else:
-    def BFS():
+    for r in range(N):
+        for c in range(M):
+            if board[r][c] == '.':
+                BFS(r, c)
+
+    printB(board)
+    printB(visit[0])
+    printB(visit[1])
+
+    while iceq:
         level = 1
-        while q:
-            visit = [[0] * C for _ in range(R)]
-            toNextLevel = len(q)
-            for _ in range(toNextLevel):
-                row, col = q.popleft()
-                board[row][col] = '.'
+        nexttime = len(iceq)
+        for _ in range(nexttime):
+            icer, icec = iceq.popleft()
+            board[icer][icec] = '.'
+            for dr, dc in delta:
+                nir = icer + dr
+                nic = icec + dc
+                if isWall(nir, nic) or icevisit[nir][nic]:
+                    continue
+                icevisit[nir][nic] = 1
+                iceq.append((nir, nic))
 
-                for dr, dc in delta:
-                    nr = row + dr
-                    nc = col + dc
-                    if not (0 <= nr < R and 0 <= nc < C):
-                        continue
+        printB(board)
+        for i in range(2):
+            nextq = deque()
+            while swanq[i]:
+                r, c = swanq[i].popleft()
+                
 
-                    if board[nr][nc] == '.':
-                        union(row, col, nr, nc)
 
-                    elif not visit[nr][nc]:
-                        visit[nr][nc] = 1
-                        q.append((nr, nc))
 
-            printB(board)
-            # printB(parent)
-            # print(findP(*bird[0]), findP(*bird[1]))
-            if findP(*bird[0]) == findP(*bird[1]):
-                return level
-            level += 1
 
-    print(BFS())
