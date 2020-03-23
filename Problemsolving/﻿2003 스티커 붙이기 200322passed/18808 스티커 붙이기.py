@@ -1,4 +1,4 @@
-# ﻿2003 스티커 붙이기
+# 18808 스티커 붙이기
 
 #####입력 모드
 # 0 : txt모드 , 1: 제출용
@@ -79,7 +79,7 @@ for r in range(N):
         if board[r][c]:
             ans += 1
 
-printB(board)
+# printB(board)
 print(ans)
 
 

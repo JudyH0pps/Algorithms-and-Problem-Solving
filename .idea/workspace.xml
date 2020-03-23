@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8531fb87-bdd4-481f-99f3-d19bed689447" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/0000No. 문제풀이템플릿/문제번호와 이름.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿1995 Gaaaaaaaaaaarden/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/18809 Gaaaaaaaaaaarden 200322passed/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿1995 Gaaaaaaaaaaarden/﻿1995 Gaaaaaaaaaaarden.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/18809 Gaaaaaaaaaaarden 200322passed/18809 Gaaaaaaaaaaarden.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿2003 스티커 붙이기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Problemsolving/﻿2003 스티커 붙이기 200322passed/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problemsolving/﻿2003 스티커 붙이기/﻿2003 스티커 붙이기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +251,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Problemsolving/﻿1995 Gaaaaaaaaaaarden/﻿1995 Gaaaaaaaaaaarden.py</url>
+          <url>file://$PROJECT_DIR$/Problemsolving/18809 Gaaaaaaaaaaarden 200322passed/18809 Gaaaaaaaaaaarden.py</url>
           <line>78</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
