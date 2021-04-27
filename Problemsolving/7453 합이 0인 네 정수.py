@@ -1,28 +1,32 @@
 import sys
 sys.stdin = open('input.txt')
 
+T = int(input())
 
-N = int(input())
 
-board = [[] for _ in range(4)]
-A = []
-cnt = {}
+for _ in range(T):
+    sm, sc, si = map(int, input().split())
+    code = input()
+    inputText = input()
 
-for _ in range(N):
-    nums = list(map(int, input().split()))
-    for i in range(4):
-        board[i].append(nums[i])
+    warp = [-1] * sc
+    stack = []
+    for idx, c in enumerate(code):
+        if c == '[':
+            stack.append(idx)
+        elif c == ']':
+            openIdx = stack.pop()
+            warp[openIdx] = idx
+            warp[idx] = openIdx
 
-for a in board[0]:
-    for b in board[1]:
-        A.append(a + b)
+    cnt = 0
+    ptr = 0
+    while ptr < sc or cnt >= 50000000:
+        print(cnt)
+        cnt += 1
+        if code[ptr] in ['[', ']']:
+            ptr = warp[ptr]
+        else:
+            ptr += 1
 
-for c in board[2]:
-    for d in board[3]:
-        cnt[c + d] = cnt.get(c + d, 0) + 1
-
-answer = 0
-for x in A:
-    answer += cnt.get(-x, 0)
-
-print(answer)
+    print(ptr)
